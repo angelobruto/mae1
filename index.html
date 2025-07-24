@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário, Mãe!</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(to right, #ffe6f0, #ffffff); text-align: center; padding: 50px; color: #333; }
+    h1 { color: #d6336c; font-size: 3em; margin-bottom: 10px; }
+    img { max-width: 90%; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); margin: 20px 0; }
+    button { background-color: #d6336c; color: white; padding: 15px 30px; font-size: 1.2em; border: none; border-radius: 10px; cursor: pointer; transition: background 0.3s; }
+    button:hover { background-color: #bf2c60; }
+    #mensagem-escondida { display: none; margin-top: 30px; font-size: 1.5em; color: #5a1a3a; }
+  </style>
+</head>
+<body>
+  <h1>Feliz Aniversário, Mãe! 🎉</h1>
+  <img src="flores.jpg" alt="Buquê de flores com mensagem de Feliz Aniversário">
+  <p>Hoje é o seu dia! Uma mulher forte, amorosa e maravilhosa como você merece todo o amor do mundo!</p>
+  <button onclick="mostrarMensagem()">Revelar Mensagem Especial 💌</button>
+  <div id="mensagem-escondida">
+    <p>🌸 Mãe, você é o meu maior exemplo de amor e dedicação. Obrigado por tudo que faz por mim todos os dias. Te amo infinitamente! 💖</p>
+  </div>
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem-escondida").style.display = "block";
+    }
+  </script>
+</body>
+</html>
